@@ -61,7 +61,7 @@
 1.2 Python介绍、发展趋势
 
 	Python发展史
-		Guido 龟叔 ，1989 Python
+		1989 Guido 龟叔 ， Python
 		2005 - 2012 谷歌大量使用PY,2013 dropbox
 		2005 豆瓣 Python
 		2009 用python ,
@@ -74,8 +74,34 @@
 
 
 	主要应该领域
+	    WEB开发
+
+	    网络编程
+
+	    爬虫
+
+	    云计算
+
+	    人工智能、数据分析
+
+	    科学计算
+
+	    尤其开发
 
 	哪些公司用py
+	    谷歌
+
+	    CIA
+
+	    NASA
+
+	    YouTuBe
+
+	    DropBox
+
+	    豆瓣
+
+	    知乎
 
 	python 的版本 发展
 
@@ -108,7 +134,7 @@
 1.8 基本数据类型
 
 	str Alex 	int 23
-	01001		010101
+	01001		010101 
 
 	数字
 		int 整数
