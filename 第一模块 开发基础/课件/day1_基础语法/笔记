@@ -257,8 +257,6 @@
 
 	单分支
 		today_weather = "sun_day"
-		
-
 		#单分支
 		if today_weather == "rain_day":
 		    print("take your umbrella with you ")
