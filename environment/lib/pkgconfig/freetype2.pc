@@ -1,0 +1,14 @@
+prefix=/media/alex/新加卷/PythonProject/PythonFullStack/environment
+exec_prefix=/media/alex/新加卷/PythonProject/PythonFullStack/environment
+libdir=/media/alex/新加卷/PythonProject/PythonFullStack/environment/lib
+includedir=/media/alex/新加卷/PythonProject/PythonFullStack/environment/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 22.1.16
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/media/alex/新加卷/PythonProject/PythonFullStack/environment/lib -lpng16 -lm -lz -lm
+Cflags: -I${includedir}/freetype2
