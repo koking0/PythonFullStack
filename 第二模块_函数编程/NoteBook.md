@@ -56,3 +56,26 @@ data4["score"]["离散数学"] = 80
 ```
 
 完全复制一份新的数据
+
+# 字符编码的转换
+
+## 编码与解码
+
+```python
+s.encode("utf-8")   # 以utf-8编码成2进制
+
+s.decode("utf-8")   # 从2进制解码称unicode
+```
+
+![](/media/alex/新加卷/PythonProject/PythonFullStack/第二模块_函数编程/images/编码与解码.png)
+
+## 编码转换
+
+把文字从一种编码转成另外一种
+
+windows : gbk
+
+linux/mac : utf-8
+
+# 函数
+
