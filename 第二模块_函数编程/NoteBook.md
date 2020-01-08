@@ -79,3 +79,43 @@ linux/mac : utf-8
 
 # 函数
 
+## 函数的返回值
+
+如果有多个返回值，使用逗号分割，将返回元组的形式
+
+## 函数的作用域
+
+## 全局变量与局部变量
+
+
+
+```python
+name = "Alex"
+
+def change():
+    name = "Coco"
+    age = 19
+    global name2		# 在函数的局部作用域内部声明一个全局变量（不建议使用）
+    print(locals())     	# 打印所有的局部变量
+    print(globals())    	# 打印所有的全局变量
+    print(name, id(name))
+
+change()
+print(name, id(name))
+
+```
+
+```
+{'name': 'Coco', 'age': 19}
+{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x7fc3f4ab3e90>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': '全局变量与局部变量1.py', '__cached__': None, 'name': 'Alex', 'change': <function change at 0x7fc3f4a084d0>}
+Coco 140479599755632
+Alex 140479599755696
+```
+
+## 嵌套
+
+## 匿名
+
+## 高阶函数
+
+
