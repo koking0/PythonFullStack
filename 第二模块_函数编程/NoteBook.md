@@ -214,3 +214,168 @@ globals：当前的模块空间，模块就是一些py文件。
 
 # 模块
 
+## 模块介绍与引入
+
+### 什么是模块
+
+为了编写可维护的代码，把很多函数分组，分别放到不同的文件里，这样，每个文件包含的代码就相对较少。
+
+很多编程语言都采用这种组织代码的方式，在python中,一个.py文件就可以称之为一个模块(Model)。
+
+### 模块的好处
+
+1.提高了代码的可维护性
+
+2.模块可以被其它地方引用
+
+3.模块可以避免函数名和变量名冲突
+
+### 模块的分类
+
+#### 标准内置模块
+
+#### 第三方模块
+
+#### 自定义模块
+
+### 模块的导入
+
+```python
+import module
+
+from module import function
+
+from bag.module import function
+```
+
+**注意：模块一旦被调用，即相当于执行了另一个py文件里的代码。**
+
+### 模块查找路径
+
+```python
+import sys
+
+sys.path
+```
+
+```python
+[
+'',    # 代表当前目录
+'/media/alex/新加卷/PythonProject/PythonFullStack/environment/lib/python37.zip', 
+'/media/alex/新加卷/PythonProject/PythonFullStack/ement/lib/python3.7',    # 标准内置模块
+'/media/alex/新加卷/PythonProject/PythonFullStack/environment/lib/python3.7/lib-dynload', 
+'/media/alex/新加卷/Pythont/PythonFullStack/environment/lib/python3.7/site-packages'   # 第三方模块
+]
+```
+
+## 第3方开源模块的安装使用
+
+https://pypi.org/
+
+### 源码编译安装
+
+从官网上下载源码，解压并进入目录，执行以下命令：
+
+```python
+编译源码：python setup.py bulid
+
+安装源码：python setup.py install
+```
+
+### 直接通过pip安装
+
+
+
+## 系统调用os模块
+
+
+
+## 系统调用sys模块
+
+
+
+## time &  datetime模块
+
+时间处理模块：
+
+    1.时间的显示：在屏幕显示、记录日志等
+    
+    2.时间的转换：
+    
+    3.时间的运算：计算两个日期的差值等
+
+### time模块
+
+python中时间的表示方式：
+
+    1.时间戳(timestamp)，表示的是从1970年1月1日00:00:00开始按妙计算的偏移量
+    
+    2.格式化的时间字符串
+    
+    3.元组(struct_time)用九个元素表示时间
+
+#### UTC时间
+
+UTC亦即格林威治天文时间，世界标准时间。
+
+在中国为UTC+8，又称东8区。
+
+#### time模块的各种方法
+
+time.localtime
+
+#### datetime模块
+
+
+
+## random随机模块
+
+
+
+## 序列化pickle&json模块
+
+
+
+## hashlib加密
+
+Hash，一般翻译作“散列”，就是把任意长度的输入（又叫做预映射，pre-image），通过散列算法，变换称固定长度的输出，该输出就是散列值。
+
+这种转换是一种压缩映射，也就是，散列值的空间通常远小于输入的空间，不同的输入可能会散列成相同的输出，而不是从散列值来唯一的确定输入值。
+
+简单的说就是一种将任意长度的消息压缩到某一固定长度的消息摘要的函数。
+
+### MD5
+
+#### 什么是MD5算法
+
+MD5讯息摘要演算法(MD5 Message-Digest Algorithm)，一种被广泛使用的密码杂凑函数，可以产出一个128位的散列值(hash value)，用于确保信息传输完整一致。
+
+#### MD5功能
+
+输入任意长度的信息，经过处理，输出为128位的信息（数字指纹）
+
+不同的输入得到的不同的结果
+
+#### MD5算法的特点
+
+1.压缩性：任意长度的数据，算出的MD5值的长度都是固定的
+
+2.容易计算：从原数据计算出MD5的值很容易
+
+3.抗修改性：对原数据进行任何改动，修改一个字节生成的MD5值区别也会很大
+
+4.强抗碰撞：已知原数据和MD5，想找到一个具有相同的MD5值的数据是非常困难的
+
+#### MD5算法是否可逆？
+
+MD5不可逆的原因是其是一种散列函数，使用的是hash算法，在计算过程中原文的部分信息是丢失了的。
+
+
+
+## 文件copy模块shutil
+
+## 正则表达式re模块
+
+## 软件开发目录设计规范
+
+## 包&模块代码调用
