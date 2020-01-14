@@ -1,0 +1,7 @@
+find name,age from staff_table where age > 22
+find * from staff_table where dept = "IT"
+find * from staff_table where enroll_date like "2013"
+add staff_table Mosson,18,13678789527,IT,2018-12-11
+del from staff_table where id = 10
+update staff_table set dept="Market" where dept = "IT"
+update staff_table set age=25 where name = "Alex Li"
