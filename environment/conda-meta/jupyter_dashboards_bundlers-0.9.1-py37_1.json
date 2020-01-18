@@ -1,0 +1,151 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "notebook >=5.0",
+    "python >=3.7,<3.8.0a0",
+    "requests >=2.7"
+  ],
+  "extracted_package_dir": "/home/alex/anaconda3/pkgs/jupyter_dashboards_bundlers-0.9.1-py37_1",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/dashboards_bundlers/__init__.py",
+    "lib/python3.7/site-packages/dashboards_bundlers/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/dashboards_bundlers/__pycache__/_version.cpython-37.pyc",
+    "lib/python3.7/site-packages/dashboards_bundlers/__pycache__/server_download.cpython-37.pyc",
+    "lib/python3.7/site-packages/dashboards_bundlers/__pycache__/server_upload.cpython-37.pyc",
+    "lib/python3.7/site-packages/dashboards_bundlers/_version.py",
+    "lib/python3.7/site-packages/dashboards_bundlers/server_download.py",
+    "lib/python3.7/site-packages/dashboards_bundlers/server_upload.py",
+    "lib/python3.7/site-packages/jupyter_dashboards_bundlers-0.9.1.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/jupyter_dashboards_bundlers-0.9.1.dist-info/LICENSE.md",
+    "lib/python3.7/site-packages/jupyter_dashboards_bundlers-0.9.1.dist-info/METADATA",
+    "lib/python3.7/site-packages/jupyter_dashboards_bundlers-0.9.1.dist-info/RECORD",
+    "lib/python3.7/site-packages/jupyter_dashboards_bundlers-0.9.1.dist-info/WHEEL",
+    "lib/python3.7/site-packages/jupyter_dashboards_bundlers-0.9.1.dist-info/top_level.txt"
+  ],
+  "fn": "jupyter_dashboards_bundlers-0.9.1-py37_1.conda",
+  "legacy_bz2_md5": "6f93db9b56c8976cd28cc71ade8597a8",
+  "license": "BSD",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/alex/anaconda3/pkgs/jupyter_dashboards_bundlers-0.9.1-py37_1",
+    "type": 1
+  },
+  "md5": "26b0e4daeecef0822d07b6a8fa9663c4",
+  "name": "jupyter_dashboards_bundlers",
+  "package_tarball_full_path": "/home/alex/anaconda3/pkgs/jupyter_dashboards_bundlers-0.9.1-py37_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/dashboards_bundlers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "424433ece8c0637ebcc5a2db8237782c9c4387332b24a914c6fc5f6c1ce57624",
+        "sha256_in_prefix": "424433ece8c0637ebcc5a2db8237782c9c4387332b24a914c6fc5f6c1ce57624",
+        "size_in_bytes": 714
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dashboards_bundlers/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5a3aa644ad6f02aa617178ce9fc1fe8219bdaa3032d04b78cd6204047fbddf68",
+        "sha256_in_prefix": "5a3aa644ad6f02aa617178ce9fc1fe8219bdaa3032d04b78cd6204047fbddf68",
+        "size_in_bytes": 616
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dashboards_bundlers/__pycache__/_version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4ca252edd98966d86bcfca4206ec037e006433f10ba169b9a27ef5d581356d2",
+        "sha256_in_prefix": "f4ca252edd98966d86bcfca4206ec037e006433f10ba169b9a27ef5d581356d2",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dashboards_bundlers/__pycache__/server_download.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "57849bdfde746c76719e51dab39c015094e599d910c37d2aacf11e415a4b1130",
+        "sha256_in_prefix": "57849bdfde746c76719e51dab39c015094e599d910c37d2aacf11e415a4b1130",
+        "size_in_bytes": 1172
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dashboards_bundlers/__pycache__/server_upload.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a8cd2499a19c129f530c6acf46b421f8d91130c62c25877acb96de57759801c",
+        "sha256_in_prefix": "6a8cd2499a19c129f530c6acf46b421f8d91130c62c25877acb96de57759801c",
+        "size_in_bytes": 6292
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dashboards_bundlers/_version.py",
+        "path_type": "hardlink",
+        "sha256": "2df78a5ad25ee368d879c961f0bf1974acd4ee55a487575fcdbc7c29e274ac0e",
+        "sha256_in_prefix": "2df78a5ad25ee368d879c961f0bf1974acd4ee55a487575fcdbc7c29e274ac0e",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dashboards_bundlers/server_download.py",
+        "path_type": "hardlink",
+        "sha256": "7f92cb66196f0fe7346dc7be468614bf103703e54396e88cab74f8edcd1bdecb",
+        "sha256_in_prefix": "7f92cb66196f0fe7346dc7be468614bf103703e54396e88cab74f8edcd1bdecb",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dashboards_bundlers/server_upload.py",
+        "path_type": "hardlink",
+        "sha256": "db9443c0cdaa545ba1a12ded7948a3bdedc86c02b053407e3e99a4a770d2b92a",
+        "sha256_in_prefix": "db9443c0cdaa545ba1a12ded7948a3bdedc86c02b053407e3e99a4a770d2b92a",
+        "size_in_bytes": 9379
+      },
+      {
+        "_path": "lib/python3.7/site-packages/jupyter_dashboards_bundlers-0.9.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python3.7/site-packages/jupyter_dashboards_bundlers-0.9.1.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "3eafacd31267607af5e0c3f47f9ae22b5a87ec596bf8ec929866a211fdd508cd",
+        "sha256_in_prefix": "3eafacd31267607af5e0c3f47f9ae22b5a87ec596bf8ec929866a211fdd508cd",
+        "size_in_bytes": 2995
+      },
+      {
+        "_path": "lib/python3.7/site-packages/jupyter_dashboards_bundlers-0.9.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "cb92a6a4f953f8e65429ac93cbdacc5229b6d605fb36468f203d33d512149dae",
+        "sha256_in_prefix": "cb92a6a4f953f8e65429ac93cbdacc5229b6d605fb36468f203d33d512149dae",
+        "size_in_bytes": 1161
+      },
+      {
+        "_path": "lib/python3.7/site-packages/jupyter_dashboards_bundlers-0.9.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6e9f1e66a67c86b0810eb09f22c53ed7d777f1bdbc5d5cb0bcf0b48fab1908f9",
+        "sha256_in_prefix": "6e9f1e66a67c86b0810eb09f22c53ed7d777f1bdbc5d5cb0bcf0b48fab1908f9",
+        "size_in_bytes": 1216
+      },
+      {
+        "_path": "lib/python3.7/site-packages/jupyter_dashboards_bundlers-0.9.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e7f89c983332759f901d526437ce56322aaea1f7fded458bdaf328aabfa7ae84",
+        "sha256_in_prefix": "e7f89c983332759f901d526437ce56322aaea1f7fded458bdaf328aabfa7ae84",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.7/site-packages/jupyter_dashboards_bundlers-0.9.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3a4423ecf47d0329b4a86c77ba58235f5d0ec868bd267220aca725b664710d00",
+        "sha256_in_prefix": "3a4423ecf47d0329b4a86c77ba58235f5d0ec868bd267220aca725b664710d00",
+        "size_in_bytes": 20
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "jupyter_dashboards_bundlers",
+  "sha256": "17b6a9cb16129ef03d3f83b7af6734c04ce05eb156a9de8a3b84d8d35cf90bcc",
+  "size": 15446,
+  "subdir": "linux-64",
+  "timestamp": 1539206295458,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/jupyter_dashboards_bundlers-0.9.1-py37_1.conda",
+  "version": "0.9.1"
+}

@@ -16,5 +16,4 @@ print(s)
 
 a = list(range(100))
 random.shuffle(a)
-
 print(a)

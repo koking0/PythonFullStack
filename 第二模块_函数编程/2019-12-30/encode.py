@@ -19,4 +19,5 @@ print(string.encode("gbk"))
 '''
 b'Alex  \xcc\xec\xbd\xf2\xbf\xc6\xbc\xbc\xb4\xf3\xd1\xa7'
 
-GBK编码 一个中文占两个字节'''
+GBK编码 一个中文占两个字节
+'''

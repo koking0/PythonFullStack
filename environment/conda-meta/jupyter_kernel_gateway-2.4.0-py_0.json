@@ -1,0 +1,489 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "jupyter_client >=5.2.0",
+    "jupyter_core >=4.4.0",
+    "notebook >=5.7.6,<7.0",
+    "python",
+    "requests >=2.7,<3.0",
+    "tornado >=4.2.0",
+    "traitlets >=4.2.0"
+  ],
+  "extracted_package_dir": "/home/alex/anaconda3/pkgs/jupyter_kernel_gateway-2.4.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/jupyter_kernel_gateway-2.4.0-py2.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/jupyter_kernel_gateway-2.4.0-py2.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/jupyter_kernel_gateway-2.4.0-py2.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/jupyter_kernel_gateway-2.4.0-py2.7.egg-info/entry_points.txt",
+    "lib/python3.7/site-packages/jupyter_kernel_gateway-2.4.0-py2.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/jupyter_kernel_gateway-2.4.0-py2.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/kernel_gateway/__init__.py",
+    "lib/python3.7/site-packages/kernel_gateway/__main__.py",
+    "lib/python3.7/site-packages/kernel_gateway/_version.py",
+    "lib/python3.7/site-packages/kernel_gateway/base/__init__.py",
+    "lib/python3.7/site-packages/kernel_gateway/base/handlers.py",
+    "lib/python3.7/site-packages/kernel_gateway/gatewayapp.py",
+    "lib/python3.7/site-packages/kernel_gateway/jupyter_websocket/__init__.py",
+    "lib/python3.7/site-packages/kernel_gateway/jupyter_websocket/handlers.py",
+    "lib/python3.7/site-packages/kernel_gateway/jupyter_websocket/swagger.json",
+    "lib/python3.7/site-packages/kernel_gateway/jupyter_websocket/swagger.yaml",
+    "lib/python3.7/site-packages/kernel_gateway/mixins.py",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/__init__.py",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/cell/__init__.py",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/cell/parser.py",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/errors.py",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/handlers.py",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/request_utils.py",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/swagger/__init__.py",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/swagger/builders.py",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/swagger/handlers.py",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/swagger/parser.py",
+    "lib/python3.7/site-packages/kernel_gateway/services/__init__.py",
+    "lib/python3.7/site-packages/kernel_gateway/services/kernels/__init__.py",
+    "lib/python3.7/site-packages/kernel_gateway/services/kernels/handlers.py",
+    "lib/python3.7/site-packages/kernel_gateway/services/kernels/manager.py",
+    "lib/python3.7/site-packages/kernel_gateway/services/kernels/pool.py",
+    "lib/python3.7/site-packages/kernel_gateway/services/kernelspecs/__init__.py",
+    "lib/python3.7/site-packages/kernel_gateway/services/kernelspecs/handlers.py",
+    "lib/python3.7/site-packages/kernel_gateway/services/sessions/__init__.py",
+    "lib/python3.7/site-packages/kernel_gateway/services/sessions/handlers.py",
+    "lib/python3.7/site-packages/kernel_gateway/services/sessions/sessionmanager.py",
+    "lib/python3.7/site-packages/kernel_gateway/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/__pycache__/__main__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/__pycache__/_version.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/base/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/base/__pycache__/handlers.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/__pycache__/gatewayapp.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/jupyter_websocket/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/jupyter_websocket/__pycache__/handlers.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/__pycache__/mixins.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/cell/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/cell/__pycache__/parser.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/__pycache__/errors.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/__pycache__/handlers.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/__pycache__/request_utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/swagger/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/swagger/__pycache__/builders.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/swagger/__pycache__/handlers.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/notebook_http/swagger/__pycache__/parser.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/services/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/services/kernels/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/services/kernels/__pycache__/handlers.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/services/kernels/__pycache__/manager.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/services/kernels/__pycache__/pool.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/services/kernelspecs/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/services/kernelspecs/__pycache__/handlers.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/services/sessions/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/services/sessions/__pycache__/handlers.cpython-37.pyc",
+    "lib/python3.7/site-packages/kernel_gateway/services/sessions/__pycache__/sessionmanager.cpython-37.pyc",
+    "bin/jupyter-kernelgateway"
+  ],
+  "fn": "jupyter_kernel_gateway-2.4.0-py_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/home/alex/anaconda3/pkgs/jupyter_kernel_gateway-2.4.0-py_0",
+    "type": 1
+  },
+  "md5": "91c0325a70a9825b5535f355d3d20ccf",
+  "name": "jupyter_kernel_gateway",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/alex/anaconda3/pkgs/jupyter_kernel_gateway-2.4.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/jupyter_kernel_gateway-2.4.0-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "d6c40c423ecd28faac7fb0a9ca1c6ced15cc0ddf45651b30ea8fa3fd8de817b8",
+        "sha256_in_prefix": "d6c40c423ecd28faac7fb0a9ca1c6ced15cc0ddf45651b30ea8fa3fd8de817b8",
+        "size_in_bytes": 1609
+      },
+      {
+        "_path": "site-packages/jupyter_kernel_gateway-2.4.0-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "fbd748f93ef1fe2d0af9897935e24187fb01a599dcf10baa60c2d6de68b533ca",
+        "sha256_in_prefix": "fbd748f93ef1fe2d0af9897935e24187fb01a599dcf10baa60c2d6de68b533ca",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "site-packages/jupyter_kernel_gateway-2.4.0-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/jupyter_kernel_gateway-2.4.0-py2.7.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "ff58dd853079d066ce808b6f092c4d12bd60b7687617ccc47fee3073c0ef5faf",
+        "sha256_in_prefix": "ff58dd853079d066ce808b6f092c4d12bd60b7687617ccc47fee3073c0ef5faf",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "site-packages/jupyter_kernel_gateway-2.4.0-py2.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "6558eebc75dbcaf6398110c9dd1819ecf218e7393b3a40a31ba576b64842dd03",
+        "sha256_in_prefix": "6558eebc75dbcaf6398110c9dd1819ecf218e7393b3a40a31ba576b64842dd03",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "site-packages/jupyter_kernel_gateway-2.4.0-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1b22f9c03b4a7370b652c6991f9a04bc6046e53a116b5f411b25e561a45b104d",
+        "sha256_in_prefix": "1b22f9c03b4a7370b652c6991f9a04bc6046e53a116b5f411b25e561a45b104d",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/kernel_gateway/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b230af09fdffb184e3f3370955f594086dd967a3be7241a8b35bbe545a9726d6",
+        "sha256_in_prefix": "b230af09fdffb184e3f3370955f594086dd967a3be7241a8b35bbe545a9726d6",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "site-packages/kernel_gateway/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "beb03d0f33367c22fd5c69dae65538dbfbc605c6ee46590d2a79f11ce7417e92",
+        "sha256_in_prefix": "beb03d0f33367c22fd5c69dae65538dbfbc605c6ee46590d2a79f11ce7417e92",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "site-packages/kernel_gateway/_version.py",
+        "path_type": "hardlink",
+        "sha256": "7a5e6f8ce6e94f1a74ca243c53d62e745abf95c9e54d16a17ffdf60f551c2919",
+        "sha256_in_prefix": "7a5e6f8ce6e94f1a74ca243c53d62e745abf95c9e54d16a17ffdf60f551c2919",
+        "size_in_bytes": 224
+      },
+      {
+        "_path": "site-packages/kernel_gateway/base/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kernel_gateway/base/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "177920de030f548baa9ba70c1f70d897bb6405de8e0f80daeac2667380f6d7bf",
+        "sha256_in_prefix": "177920de030f548baa9ba70c1f70d897bb6405de8e0f80daeac2667380f6d7bf",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "site-packages/kernel_gateway/gatewayapp.py",
+        "path_type": "hardlink",
+        "sha256": "d7e7036e1bfc1623200344ba80152406eb41abb89e17f584fe70326f307ab1c4",
+        "sha256_in_prefix": "d7e7036e1bfc1623200344ba80152406eb41abb89e17f584fe70326f307ab1c4",
+        "size_in_bytes": 20668
+      },
+      {
+        "_path": "site-packages/kernel_gateway/jupyter_websocket/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dd33f8ce28d6b2aee4c49d575ee0980bafd25f68e7361252446d1abd447cded2",
+        "sha256_in_prefix": "dd33f8ce28d6b2aee4c49d575ee0980bafd25f68e7361252446d1abd447cded2",
+        "size_in_bytes": 3227
+      },
+      {
+        "_path": "site-packages/kernel_gateway/jupyter_websocket/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "e1874a6aeeab50d139206f08798c92a32348c686da9aededf150d881f9ba06b9",
+        "sha256_in_prefix": "e1874a6aeeab50d139206f08798c92a32348c686da9aededf150d881f9ba06b9",
+        "size_in_bytes": 1861
+      },
+      {
+        "_path": "site-packages/kernel_gateway/jupyter_websocket/swagger.json",
+        "path_type": "hardlink",
+        "sha256": "f2c527ae43d104d053a9524590a4ed4f625cdfc581ceacdc3565d6be6ce39967",
+        "sha256_in_prefix": "f2c527ae43d104d053a9524590a4ed4f625cdfc581ceacdc3565d6be6ce39967",
+        "size_in_bytes": 15774
+      },
+      {
+        "_path": "site-packages/kernel_gateway/jupyter_websocket/swagger.yaml",
+        "path_type": "hardlink",
+        "sha256": "67feaee6c2876174d6213bd74e25ba260926967d82f23c361f9bf0f0004d0e2b",
+        "sha256_in_prefix": "67feaee6c2876174d6213bd74e25ba260926967d82f23c361f9bf0f0004d0e2b",
+        "size_in_bytes": 11521
+      },
+      {
+        "_path": "site-packages/kernel_gateway/mixins.py",
+        "path_type": "hardlink",
+        "sha256": "f727a8332d84ce40ea6339598ae3febe731e4b17a9c035f01b2049dcb49145a6",
+        "sha256_in_prefix": "f727a8332d84ce40ea6339598ae3febe731e4b17a9c035f01b2049dcb49145a6",
+        "size_in_bytes": 4940
+      },
+      {
+        "_path": "site-packages/kernel_gateway/notebook_http/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6bc83ab43b6d41f97925ed15d7a7f7ac8ee828bc44e4a41a74131c3ddc8140c0",
+        "sha256_in_prefix": "6bc83ab43b6d41f97925ed15d7a7f7ac8ee828bc44e4a41a74131c3ddc8140c0",
+        "size_in_bytes": 7034
+      },
+      {
+        "_path": "site-packages/kernel_gateway/notebook_http/cell/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kernel_gateway/notebook_http/cell/parser.py",
+        "path_type": "hardlink",
+        "sha256": "edbcdcf0f777a16f0acbe976200914ba02326888d5f23f6cc9fdd0a26c747f9d",
+        "sha256_in_prefix": "edbcdcf0f777a16f0acbe976200914ba02326888d5f23f6cc9fdd0a26c747f9d",
+        "size_in_bytes": 6747
+      },
+      {
+        "_path": "site-packages/kernel_gateway/notebook_http/errors.py",
+        "path_type": "hardlink",
+        "sha256": "4904e233f85c315f2f75dd125601d3a1084fcc064e3c91d183559bd5455398ad",
+        "sha256_in_prefix": "4904e233f85c315f2f75dd125601d3a1084fcc064e3c91d183559bd5455398ad",
+        "size_in_bytes": 442
+      },
+      {
+        "_path": "site-packages/kernel_gateway/notebook_http/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "6f8a0e1de5915770c565bd8ede79b688a71d5127e771ef1da553ef24c1854f0d",
+        "sha256_in_prefix": "6f8a0e1de5915770c565bd8ede79b688a71d5127e771ef1da553ef24c1854f0d",
+        "size_in_bytes": 10949
+      },
+      {
+        "_path": "site-packages/kernel_gateway/notebook_http/request_utils.py",
+        "path_type": "hardlink",
+        "sha256": "ca6324be1a1b23d20213f6a1edf87e078f5d7ee669db654ecee699a9678594dd",
+        "sha256_in_prefix": "ca6324be1a1b23d20213f6a1edf87e078f5d7ee669db654ecee699a9678594dd",
+        "size_in_bytes": 3879
+      },
+      {
+        "_path": "site-packages/kernel_gateway/notebook_http/swagger/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kernel_gateway/notebook_http/swagger/builders.py",
+        "path_type": "hardlink",
+        "sha256": "61276834b2a81492fb784c2652393aac5c11b498a9572e810864da11053b0e86",
+        "sha256_in_prefix": "61276834b2a81492fb784c2652393aac5c11b498a9572e810864da11053b0e86",
+        "size_in_bytes": 2063
+      },
+      {
+        "_path": "site-packages/kernel_gateway/notebook_http/swagger/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "f261f861ed816eacdbd465d363eb58e32ace028623afa7b39b0c88284ee45b97",
+        "sha256_in_prefix": "f261f861ed816eacdbd465d363eb58e32ace028623afa7b39b0c88284ee45b97",
+        "size_in_bytes": 1638
+      },
+      {
+        "_path": "site-packages/kernel_gateway/notebook_http/swagger/parser.py",
+        "path_type": "hardlink",
+        "sha256": "2bc5abf725134534ee74642ba7c9df9c15896ed08b6d2c45a4930bd5e72c2b2a",
+        "sha256_in_prefix": "2bc5abf725134534ee74642ba7c9df9c15896ed08b6d2c45a4930bd5e72c2b2a",
+        "size_in_bytes": 12071
+      },
+      {
+        "_path": "site-packages/kernel_gateway/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kernel_gateway/services/kernels/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kernel_gateway/services/kernels/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "db8c0945a9c8eb7b8f9607d51711f1e3256597fd2aa3dff28868fbf8d72ee480",
+        "sha256_in_prefix": "db8c0945a9c8eb7b8f9607d51711f1e3256597fd2aa3dff28868fbf8d72ee480",
+        "size_in_bytes": 4544
+      },
+      {
+        "_path": "site-packages/kernel_gateway/services/kernels/manager.py",
+        "path_type": "hardlink",
+        "sha256": "5360ae14022ba8b4581182f295f600ebd2f003c9619fa8eda8e4da35fab61514",
+        "sha256_in_prefix": "5360ae14022ba8b4581182f295f600ebd2f003c9619fa8eda8e4da35fab61514",
+        "size_in_bytes": 5308
+      },
+      {
+        "_path": "site-packages/kernel_gateway/services/kernels/pool.py",
+        "path_type": "hardlink",
+        "sha256": "1785f3f5d4213e360b160dd51f38bc048598025e638008c44f76c58102cf0ff5",
+        "sha256_in_prefix": "1785f3f5d4213e360b160dd51f38bc048598025e638008c44f76c58102cf0ff5",
+        "size_in_bytes": 5681
+      },
+      {
+        "_path": "site-packages/kernel_gateway/services/kernelspecs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kernel_gateway/services/kernelspecs/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "dab5ee641f0212b54be2d5a78e112b2eeca8057a8fa85cef5514ba25913e9432",
+        "sha256_in_prefix": "dab5ee641f0212b54be2d5a78e112b2eeca8057a8fa85cef5514ba25913e9432",
+        "size_in_bytes": 989
+      },
+      {
+        "_path": "site-packages/kernel_gateway/services/sessions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kernel_gateway/services/sessions/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "cb5accbb58d13c740528222575cd78c7a8c5ff1192debac4d482abda96626f2e",
+        "sha256_in_prefix": "cb5accbb58d13c740528222575cd78c7a8c5ff1192debac4d482abda96626f2e",
+        "size_in_bytes": 1492
+      },
+      {
+        "_path": "site-packages/kernel_gateway/services/sessions/sessionmanager.py",
+        "path_type": "hardlink",
+        "sha256": "e31a67b520b5020879a0a2cff6d7dd991eb43ae5c814d810bef170c8d62adf12",
+        "sha256_in_prefix": "e31a67b520b5020879a0a2cff6d7dd991eb43ae5c814d810bef170c8d62adf12",
+        "size_in_bytes": 8063
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/__pycache__/__main__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/__pycache__/_version.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/base/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/base/__pycache__/handlers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/__pycache__/gatewayapp.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/jupyter_websocket/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/jupyter_websocket/__pycache__/handlers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/__pycache__/mixins.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/notebook_http/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/notebook_http/cell/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/notebook_http/cell/__pycache__/parser.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/notebook_http/__pycache__/errors.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/notebook_http/__pycache__/handlers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/notebook_http/__pycache__/request_utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/notebook_http/swagger/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/notebook_http/swagger/__pycache__/builders.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/notebook_http/swagger/__pycache__/handlers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/notebook_http/swagger/__pycache__/parser.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/services/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/services/kernels/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/services/kernels/__pycache__/handlers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/services/kernels/__pycache__/manager.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/services/kernels/__pycache__/pool.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/services/kernelspecs/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/services/kernelspecs/__pycache__/handlers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/services/sessions/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/services/sessions/__pycache__/handlers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/kernel_gateway/services/sessions/__pycache__/sessionmanager.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/jupyter-kernelgateway",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "jupyter_kernel_gateway",
+  "sha256": "40fcc457c2376b6f92e7b03ffedca94f3ac71d17ebce7c9bdc49f1bd29332f13",
+  "size": 34972,
+  "subdir": "noarch",
+  "timestamp": 1569426009942,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/jupyter_kernel_gateway-2.4.0-py_0.tar.bz2",
+  "version": "2.4.0"
+}

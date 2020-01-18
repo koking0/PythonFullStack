@@ -1,5 +1,6 @@
 name = "Alex"
 
+
 def change():
     name = "Coco"
     age = 19
@@ -7,5 +8,6 @@ def change():
     print(globals())    # 打印所有的全局变量
     print(name, id(name))
 
-change()    
+
+change()
 print(name, id(name))
