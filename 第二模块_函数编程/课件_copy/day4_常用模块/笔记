@@ -1,0 +1,105 @@
+第4章 Python基础 Day4 常用模块
+
+4.1 模块介绍与导入
+	什么是模块
+
+	模块的好处
+		避免函数名、变量名冲突
+
+		a.py
+			def sayhi():
+				hahasa
+			def sayhi()
+		b.py
+			import a
+			def sayhi(()
+				xxxx
+
+			a.sayhi
+			sayhi
+	模块的分类
+		标准模块、内置模块 库   300
+		第三方模块 18万 pip install
+		自定义模块，自已写的
+
+
+
+	导入 方式
+
+	自定义模块
+		# 模块 查找路径有关系
+		['/Users/alex/PycharmProjects/apeland_py_learn/day4_常用模块',
+		'/Users/alex/PycharmProjects/apeland_py_learn',
+		 '/Library/Frameworks/Python.framework/Versions/3.6/lib/python36.zip',
+		 '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6', 标准库
+		 '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/lib-dynload',
+		 '/Users/alex/PycharmProjects/apeland_py_learn/venv/lib/python3.6/site-packages',  第3方模块
+		 '/Users/alex/PycharmProjects/apeland_py_learn/venv/lib/python3.6/site-packages/setuptools-39.1.0-py3.6.egg',
+		 '/Users/alex/PycharmProjects/apeland_py_learn/venv/lib/python3.6/site-packages/pip-10.0.1-py3.6.egg']
+
+
+	查找路径
+
+
+
+4.2 第3方开源模块的安装使用
+4.3 系统调用os模块
+4.4 系统调用sys模块
+4.5 time & datetime模块
+
+		unix 1970 , B, C
+			ibm AIX unix
+			hp  hp unix
+			oracle Sun Soloris
+		linux
+		windows
+		mac = unix
+
+		pytz.timezone("Asia/Saigon")
+ 		datetime.datetime.now(tz= pytz.timezone("Asia/Saigon"))
+
+4.6 random随机数模块
+
+
+4.7 序列化pickle&json模块
+	dump 写入文件
+	dumps 生成序列化的字符串
+
+	load 从文件加载
+	loads 把序列化的字符串反向解析
+
+	pickle vs json
+
+		pickle
+			只支持python
+			支持py里的所有数据类型
+			class->object ,
+			function
+			datetime
+
+		json
+			所有语言都支持
+			只支持常规数据类型， str, int, dict ,set,list,tuple
+
+
+		web frontend
+			html/js/css
+			function (x,x,x){
+				xxxx
+			}
+
+		backend
+			python  ---json ---> frontend dict
+			def nfname():
+
+4.8 hashlib 加密
+	safasfsafsdfsf  --> 2324234234 碰撞
+	ksgs2sdfsdfsdfsfsf....  --> 2324234234
+
+	ssl  ssl2 -->sha256
+
+
+4.9 文件copy模块shutil
+4.10 正则表达式re模块
+4.11 软件开发目录设计规范
+4.12 包&跨模块代码调用
