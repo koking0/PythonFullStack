@@ -23,6 +23,7 @@ class FtpClient:
 
     def __init__(self):
         self.username = None
+        self.terminal_display = None
 
         # 处理参数
         parser = optparse.OptionParser()
@@ -49,12 +50,11 @@ class FtpClient:
 
     def interactive(self):
         """处理与FtpServer的所有交互"""
-        if self.auth():
+        if self._auth():
             while True:
-                user_input = input("[%s]>>> " % self.username).strip()
+                user_input = input(self.terminal_display).strip()
                 if not user_input:
                     continue
-
                 cmd_list = user_input.split()
                 if hasattr(self, "_%s" % (cmd_list[0])):
                     func = getattr(self, "_%s" % (cmd_list[0]))
@@ -84,11 +84,16 @@ class FtpClient:
         """change to target dir"""
         if self.parameter_check(cmd_args, exact_args=1):
             target_dir = cmd_args[0]
+            self.send_msg("cd", target_dir=target_dir)
+            response = self.get_response()
+
+            if response.get("status_code") == 400:
+                self.terminal_display = "[%s%s]>>> " % (self.username, response.get("current_dir"))
 
     def _ls(self, cmd_args):
         self.send_msg(action_type="ls")
         response = self.get_response()
-        print("response: ", response)
+        # print("response: ", response)
 
         if response.get("status_code") == 302:
             cmd_result = b""
@@ -136,15 +141,19 @@ class FtpClient:
             else:
                 print(response.get("status_msg"))
 
-    def _put(self):
-        pass
+    def _put(self, cmd_args):
+        """上传本地文件到服务器"""
+        if self.parameter_check(cmd_args, exact_args=1):
+            local_file = cmd_args[0]
+            if os.path.isfile(local_file):
+                self.send_msg("put", file_size=os.path.getsize(local_file), file_name=local_file)
+                with open(local_file, "rb") as file:
+                    for line in file:
+                        self.sock.send(line)
+                    else:
+                        print("File upload done.".center(50, "-"))
 
-    def get_response(self):
-        """获取服务器返回数据"""
-        data = self.sock.recv(self.MSG_SIZE)
-        return json.loads(data.decode("utf-8"))
-
-    def auth(self):
+    def _auth(self):
         """用户认证"""
         count = 0
         while count < 3:
@@ -158,13 +167,19 @@ class FtpClient:
 
             self.send_msg(action_type="auth", username=username, password=password)
             response = self.get_response()
-            print("response: ", response)
+            # print("response: ", response)
 
             if response.get("status_code") == 200:
                 self.username = username
+                self.terminal_display = "[%s]>>> " % self.username
                 return True
             else:
                 print(response.get("status_msg"))
+
+    def get_response(self):
+        """获取服务器返回数据"""
+        data = self.sock.recv(self.MSG_SIZE)
+        return json.loads(data.decode("utf-8"))
 
     def send_msg(self, action_type, **kwargs):
         """打包消息内容"""

@@ -15,6 +15,7 @@ import socket
 import hashlib
 import configparser
 import subprocess
+import time
 
 from conf import settings
 
@@ -29,7 +30,9 @@ class FTPServer:
         202: "User is not exited!",
         300: "File exited!",
         301: "File not exited!",
-        302: "Message size!"
+        302: "Message size!",
+        400: "Dir changed!",
+        401: "Dir not exited!",
     }
 
     def __init__(self, management_instance):
@@ -52,7 +55,11 @@ class FTPServer:
             # 开始监听
             self.request, self.addr = self.sock.accept()
             print("got a new connection from %s..." % (self.addr,))
+            # try:
             self.handle()
+            # except Exception:
+            #     self.request.close()
+            #     print("Error happen with client, close connection")
 
     def handle(self):
         """处理与用户的所有指令交互"""
@@ -75,10 +82,27 @@ class FTPServer:
             else:
                 print("invalid command.")
 
+    def _cd(self, data):
+        """根据用户的target_dir改变self.user_current_dir的值"""
+        target_dir = data.get("target_dir")
+        full_path = os.path.abspath(os.path.join(self.current_dir, target_dir))
+        print("full path: ", full_path)
+
+        if os.path.isdir(full_path):
+            if full_path.startswith(self.user_obj["home"]):
+                self.current_dir = full_path
+                relative_current_dir = self.current_dir.replace(self.user_obj['home'], "")
+                self.send_response(400, current_dir=relative_current_dir)
+            else:
+                self.send_response(401)
+        else:
+            self.send_response(401)
+
     def _ls(self, data):
         """run dir command and send result to client"""
         print(self.current_dir)
-        cmd_obj = subprocess.Popen("dir %s" % self.current_dir, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        cmd_obj = subprocess.Popen("dir %s" % self.current_dir, shell=True, stdout=subprocess.PIPE,
+                                   stderr=subprocess.PIPE)
         stdout = cmd_obj.stdout.read()
         stderr = cmd_obj.stderr.read()
         cmd_result = stdout + stderr
@@ -113,6 +137,25 @@ class FTPServer:
         else:
             self.send_response(301)
             print(self.STATUS_CODE.get(301))
+
+    def _put(self, data):
+        """client uploads file to server"""
+        local_file = data.get("file_name")
+        full_path = os.path.join(self.current_dir, local_file)
+        filename = "%s.%s.%s" % (self.current_dir, time.time(), local_file) if os.path.isfile(full_path) else full_path
+
+        received_size = 0
+        total_size = data.get("file_size")
+        with open(filename, "wb") as file:
+            while received_size < total_size:
+                if total_size - received_size < 8192:
+                    data = self.request.recv(total_size - received_size)
+                else:
+                    data = self.request.recv(8192)
+                received_size += len(data)
+                file.write(data)
+            else:
+                print("File %s recv done." % local_file)
 
     def _auth(self, data):
         """处理用户认证请求"""
@@ -156,11 +199,10 @@ class FTPServer:
         print(config_obj.sections())
         return config_obj
 
-    def send_response(self, status_code, *args, **kwargs):
+    def send_response(self, status_code, **kwargs):
         """
         打包发送消息给客户端
         :param status_code:
-        :param args:
         :param kwargs:
         :return:
         """
