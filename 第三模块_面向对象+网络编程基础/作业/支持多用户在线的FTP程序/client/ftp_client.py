@@ -83,7 +83,7 @@ class FtpClient:
     def _cd(self, cmd_args):
         """change to target dir"""
         if self.parameter_check(cmd_args, exact_args=1):
-            target
+            target_dir = cmd_args[0]
 
     def _ls(self, cmd_args):
         self.send_msg(action_type="ls")
