@@ -33,6 +33,8 @@ class FTPServer:
         302: "Message size!",
         400: "Dir changed!",
         401: "Dir not exited!",
+        500: "File exited! Prepare resend!",
+        501: "File exited! But file size not match!",
     }
 
     def __init__(self, management_instance):
@@ -55,18 +57,18 @@ class FTPServer:
             # 开始监听
             self.request, self.addr = self.sock.accept()
             print("got a new connection from %s..." % (self.addr,))
-            # try:
-            self.handle()
-            # except Exception:
-            #     self.request.close()
-            #     print("Error happen with client, close connection")
+            try:
+                self.handle()
+            except Exception:
+                self.request.close()
+                print("Error happen with client, close connection")
 
     def handle(self):
         """处理与用户的所有指令交互"""
 
         while True:
             raw_data = self.request.recv(self.MSG_SIZE)
-            print("------->", raw_data)
+            # print("------->", raw_data)
 
             if not raw_data:
                 print("Connection %s is lost..." % (self.addr,))
@@ -113,11 +115,36 @@ class FTPServer:
         self.send_response(302, cmd_result_size=len(cmd_result))
         self.request.sendall(cmd_result)
 
+    def _re_get(self, data):
+        """resend unfinished file on client"""
+        # 1.提取文件路径
+        abs_filename = data.get("abs_filename")
+        full_path = os.path.join(self.user_obj["home"], abs_filename.strip("\\"))
+
+        # 2.判断文件是否存在，
+        if os.path.isfile(full_path):
+            # 2.1、文件存在，判断文件大小是否与客户端发过来的一致
+            if os.path.getsize(full_path) == data.get("file_size"):
+                # 2.1.1、如果一致，准备续传，并seek到指定位置循环发送
+                self.send_response(500)
+                with open(full_path, "rb") as file:
+                    file.seek(data.get("received_size"))
+                    for line in file:
+                        self.request.send(line)
+                    else:
+                        print("File resend done!".center(50, "-"))
+            else:
+                # 2.1.2、如果文件不一致，返回错误消息
+                self.send_response(501, file_size_on_server=os.path.getsize(full_path))
+        else:
+            # 2.2、文件不存在，返回状态码和错误信息
+            self.send_response(301)
+
     def _get(self, data):
         """client download files through this method"""
         # 1.拿到文件名
         filename = data.get("filename")
-        filepath = os.path.join(self.user_obj["home"], filename)
+        filepath = os.path.join(self.current_dir, filename)
 
         # 2.判断文件是否存在
         # 2.1、如果存在，返回状态码+文件大小
@@ -179,9 +206,7 @@ class FTPServer:
                 # set user obj
                 self.user_obj = self.accounts[username]
                 # set user home directory
-                self.user_obj["home"] = os.path.join(settings.USER_HOME_DIR, username)
-                # set current directory
-                self.current_dir = self.user_obj["home"]
+                self.current_dir = self.user_obj["home"] = os.path.join(settings.USER_HOME_DIR, username)
                 return True
             else:
                 print("Wrong username or password...")

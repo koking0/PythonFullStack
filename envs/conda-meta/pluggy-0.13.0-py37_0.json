@@ -1,0 +1,182 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "importlib_metadata >=0.12",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "D:\\MiniConda\\pkgs\\pluggy-0.13.0-py37_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pluggy-0.13.0.dist-info/INSTALLER",
+    "Lib/site-packages/pluggy-0.13.0.dist-info/LICENSE",
+    "Lib/site-packages/pluggy-0.13.0.dist-info/METADATA",
+    "Lib/site-packages/pluggy-0.13.0.dist-info/RECORD",
+    "Lib/site-packages/pluggy-0.13.0.dist-info/WHEEL",
+    "Lib/site-packages/pluggy-0.13.0.dist-info/top_level.txt",
+    "Lib/site-packages/pluggy/__init__.py",
+    "Lib/site-packages/pluggy/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pluggy/__pycache__/_tracing.cpython-37.pyc",
+    "Lib/site-packages/pluggy/__pycache__/_version.cpython-37.pyc",
+    "Lib/site-packages/pluggy/__pycache__/callers.cpython-37.pyc",
+    "Lib/site-packages/pluggy/__pycache__/hooks.cpython-37.pyc",
+    "Lib/site-packages/pluggy/__pycache__/manager.cpython-37.pyc",
+    "Lib/site-packages/pluggy/_tracing.py",
+    "Lib/site-packages/pluggy/_version.py",
+    "Lib/site-packages/pluggy/callers.py",
+    "Lib/site-packages/pluggy/hooks.py",
+    "Lib/site-packages/pluggy/manager.py",
+    ".nonadmin"
+  ],
+  "fn": "pluggy-0.13.0-py37_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "D:\\MiniConda\\pkgs\\pluggy-0.13.0-py37_0",
+    "type": 1
+  },
+  "md5": "1be27c0ee5e32c7e5a36969859930e88",
+  "name": "pluggy",
+  "package_tarball_full_path": "D:\\MiniConda\\pkgs\\pluggy-0.13.0-py37_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pluggy-0.13.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/pluggy-0.13.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606",
+        "sha256_in_prefix": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606",
+        "size_in_bytes": 1110
+      },
+      {
+        "_path": "Lib/site-packages/pluggy-0.13.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "af2380be62bbe79eb90157e59513cc54ac96e5aea934b26d9cf0ad903451ce19",
+        "sha256_in_prefix": "af2380be62bbe79eb90157e59513cc54ac96e5aea934b26d9cf0ad903451ce19",
+        "size_in_bytes": 15414
+      },
+      {
+        "_path": "Lib/site-packages/pluggy-0.13.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d86434aa98f9633d7a42ceb33129f24c5ccd3ff15cd62b2bc16beeb17bd9e903",
+        "sha256_in_prefix": "d86434aa98f9633d7a42ceb33129f24c5ccd3ff15cd62b2bc16beeb17bd9e903",
+        "size_in_bytes": 1202
+      },
+      {
+        "_path": "Lib/site-packages/pluggy-0.13.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "2595ed61ea5916c7f82288af3699d280a21ce2a4c76a7d3c0d1779ea4a28fc33",
+        "sha256_in_prefix": "2595ed61ea5916c7f82288af3699d280a21ce2a4c76a7d3c0d1779ea4a28fc33",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "Lib/site-packages/pluggy-0.13.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c4a4824616a2faff4c724bccb96a8dcf5e9cd6d6ec98e820a0c4b04e07296071",
+        "sha256_in_prefix": "c4a4824616a2faff4c724bccb96a8dcf5e9cd6d6ec98e820a0c4b04e07296071",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/pluggy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1654364fb7b0b59bba7ae674a46ff5600359fe55f357d2c374b4a02aeb509848",
+        "sha256_in_prefix": "1654364fb7b0b59bba7ae674a46ff5600359fe55f357d2c374b4a02aeb509848",
+        "size_in_bytes": 486
+      },
+      {
+        "_path": "Lib/site-packages/pluggy/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fdcefa962b41e78d81058784d244c9f195b68a221e3c6d3e1b651f402c05d134",
+        "sha256_in_prefix": "fdcefa962b41e78d81058784d244c9f195b68a221e3c6d3e1b651f402c05d134",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "Lib/site-packages/pluggy/__pycache__/_tracing.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8245c228587446f8756372807bd70f75717c3df0ecb9d6d51f61d0615de24e19",
+        "sha256_in_prefix": "8245c228587446f8756372807bd70f75717c3df0ecb9d6d51f61d0615de24e19",
+        "size_in_bytes": 2249
+      },
+      {
+        "_path": "Lib/site-packages/pluggy/__pycache__/_version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7dafeb430d354a9371e69c40ff200189bb4305017add6cb779c41a100e32d6d6",
+        "sha256_in_prefix": "7dafeb430d354a9371e69c40ff200189bb4305017add6cb779c41a100e32d6d6",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "Lib/site-packages/pluggy/__pycache__/callers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c1bf8ca6446b4ac6faae31430aa687ac7a258fcdbd12a572e1def43caef853d",
+        "sha256_in_prefix": "6c1bf8ca6446b4ac6faae31430aa687ac7a258fcdbd12a572e1def43caef853d",
+        "size_in_bytes": 5865
+      },
+      {
+        "_path": "Lib/site-packages/pluggy/__pycache__/hooks.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "74cc1d43fd6ebb4ed7a7eb0bb6c61b7087dd3d2320894dd0ef2e47589fe78bad",
+        "sha256_in_prefix": "74cc1d43fd6ebb4ed7a7eb0bb6c61b7087dd3d2320894dd0ef2e47589fe78bad",
+        "size_in_bytes": 11440
+      },
+      {
+        "_path": "Lib/site-packages/pluggy/__pycache__/manager.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8dac5a3e0f737ea45d3674550522f57ec8c55998e662fb57478e03c71ee1c983",
+        "sha256_in_prefix": "8dac5a3e0f737ea45d3674550522f57ec8c55998e662fb57478e03c71ee1c983",
+        "size_in_bytes": 14158
+      },
+      {
+        "_path": "Lib/site-packages/pluggy/_tracing.py",
+        "path_type": "hardlink",
+        "sha256": "6a57348fd1008306afab8dd3bb40f8bee5e6c27eb2a73c97c7dbfaa2e0b055a4",
+        "sha256_in_prefix": "6a57348fd1008306afab8dd3bb40f8bee5e6c27eb2a73c97c7dbfaa2e0b055a4",
+        "size_in_bytes": 1561
+      },
+      {
+        "_path": "Lib/site-packages/pluggy/_version.py",
+        "path_type": "hardlink",
+        "sha256": "0ee420353b4786495bb95a6262c2de3cd8e5b3a6ca363040e2947fca41fe5f03",
+        "sha256_in_prefix": "0ee420353b4786495bb95a6262c2de3cd8e5b3a6ca363040e2947fca41fe5f03",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "Lib/site-packages/pluggy/callers.py",
+        "path_type": "hardlink",
+        "sha256": "7ed72f1fa017ee9f5c2b9f3dd7a2b1c4bb6c14484eaf6391ebd2cc015ab1ac59",
+        "sha256_in_prefix": "7ed72f1fa017ee9f5c2b9f3dd7a2b1c4bb6c14484eaf6391ebd2cc015ab1ac59",
+        "size_in_bytes": 6820
+      },
+      {
+        "_path": "Lib/site-packages/pluggy/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "ac7289797143a158156f2ddd6ddaa56d291da54fcc6216e0ca3cb19ed1f64c06",
+        "sha256_in_prefix": "ac7289797143a158156f2ddd6ddaa56d291da54fcc6216e0ca3cb19ed1f64c06",
+        "size_in_bytes": 12098
+      },
+      {
+        "_path": "Lib/site-packages/pluggy/manager.py",
+        "path_type": "hardlink",
+        "sha256": "97f5da3a0623a6eb56faec28cba410aaab25ed2d23c390207dfe3cb6190a9b1e",
+        "sha256_in_prefix": "97f5da3a0623a6eb56faec28cba410aaab25ed2d23c390207dfe3cb6190a9b1e",
+        "size_in_bytes": 15223
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e390d927577fea3ce8f65e1e0c1bbc4ba14227385a406e20147defb92b87fb3a",
+  "size": 28837,
+  "subdir": "win-64",
+  "timestamp": 1568153903610,
+  "track_features": "",
+  "url": "https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/win-64/pluggy-0.13.0-py37_0.tar.bz2",
+  "version": "0.13.0"
+}
