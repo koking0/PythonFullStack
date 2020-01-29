@@ -146,11 +146,20 @@ class FtpClient:
         if self.parameter_check(cmd_args, exact_args=1):
             local_file = cmd_args[0]
             if os.path.isfile(local_file):
-                self.send_msg("put", file_size=os.path.getsize(local_file), file_name=local_file)
+                upload_size = 0
+                last_percent = 0
+                total_size = os.path.getsize(local_file)
+                self.send_msg("put", file_size=total_size, file_name=local_file)
                 with open(local_file, "rb") as file:
                     for line in file:
                         self.sock.send(line)
+                        upload_size += len(line)
+                        current_percent = int(upload_size / total_size) * 100
+                        if current_percent > last_percent:
+                            print("#" * int(current_percent / 2) + "%s%%" % current_percent, end='\r', flush=True)
+                            last_percent = current_percent
                     else:
+                        print()
                         print("File upload done.".center(50, "-"))
 
     def _auth(self):
