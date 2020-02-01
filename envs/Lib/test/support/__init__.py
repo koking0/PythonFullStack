@@ -949,7 +949,7 @@ else:
 # Save the initial cwd
 SAVEDCWD = os.getcwd()
 
-# Set by libregrtest/main.py so we can skip tests that are not
+# Set by libregrtest/interactive.py so we can skip tests that are not
 # useful for PGO
 PGO = False
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time     : 2020/1/26 8:20
-# @File     : main.py
+# @File     : interactive.py
 # ----------------------------------------------
 # ☆ ☆ ☆ ☆ ☆ ☆ ☆ 
 # >>> Author    : Alex

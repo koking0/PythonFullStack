@@ -10,16 +10,19 @@
 # >>> Github    : https://github.com/koking0
 # ☆ ☆ ☆ ☆ ☆ ☆ ☆
 # 参数处理模块
-from core import main
+import hashlib
+import configparser
+
+from conf import settings
+from core import interactive
 
 
 class ManagementTool:
-    """负责对用户输入的指令进行解析并调用相应的模块处理"""
+    """负责对运行服务端输入的指令进行解析并调用相应的模块处理"""
 
     def __init__(self, sys_argv):
         self.sys_argv = sys_argv
         self.verify_argv()
-        print(self.sys_argv)
 
     def verify_argv(self):
         """验证指令合法"""
@@ -31,35 +34,43 @@ class ManagementTool:
             print("invalid argument")
             self.help_msg()
 
-    @staticmethod
-    def help_msg():
-        msg = """
-        start           start FTP server
-        stop            stop FTP server
-        restart         restart FTP server
-        creat user      creat a FTP user
-        
-        """
-        exit(msg)
-
     def execute(self):
         """解析并执行指令"""
-        print("--execute--")
-
         cmd = self.sys_argv[1]
         func = getattr(self, cmd)
         func()
 
     def start(self):
         """start ftp server"""
-        server = main.FTPServer(self)
+        server = interactive.FTPServer(self)
         server.run_forever()
 
-    def stop(self):
-        pass
+    @staticmethod
+    def creat_user():
+        """创建用户"""
+        md5 = hashlib.md5()
+        nickname = input("Please input user nickname: ").strip()
 
-    def restart(self):
-        pass
+        config_obj = configparser.ConfigParser()
+        config_obj.read(settings.ACCOUNT_FILE)
+        if nickname in config_obj.sections():
+            exit("User already exited!")
 
-    def creat_user(self):
-        pass
+        md5.update(input("Please input user password: ").strip().encode("utf-8"))
+        user_space = input("Please input user total space: ").strip()
+        password = md5.hexdigest()
+
+        config_obj.add_section(nickname)
+        config_obj.set(nickname, "name", nickname)
+        config_obj.set(nickname, "password", password)
+        config_obj.set(nickname, "total_space", user_space)
+        config_obj.set(nickname, "used_space", "0")
+        config_obj.write(open(settings.ACCOUNT_FILE, "w+"))
+
+    @staticmethod
+    def help_msg():
+        msg = """
+        -------start           start FTP server-------
+        -------creat_user      creat a FTP user-------
+        """
+        exit(msg)

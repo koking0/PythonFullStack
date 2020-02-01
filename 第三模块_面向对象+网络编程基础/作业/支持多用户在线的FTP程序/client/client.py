@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time     : 2020/1/27 22:28
-# @File     : ftp_server.py
+# @Time     : 2020/1/31 12:15
+# @File     : client.py
 # ----------------------------------------------
 # ☆ ☆ ☆ ☆ ☆ ☆ ☆ 
 # >>> Author    : Alex
@@ -9,11 +9,7 @@
 # >>> Mail      : alex18812649207@gmail.com
 # >>> Github    : https://github.com/koking0
 # ☆ ☆ ☆ ☆ ☆ ☆ ☆
-import sys
+from bin import ftp_client
 
-from core import management
-
-
-def main():
-    argv_parser = management.ManagementTool(sys.argv)
-    argv_parser.execute()
+if __name__ == '__main__':
+    ftp_client.main()
