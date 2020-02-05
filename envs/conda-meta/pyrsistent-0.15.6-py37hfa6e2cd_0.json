@@ -1,0 +1,407 @@
+{
+  "build": "py37hfa6e2cd_0",
+  "build_number": 0,
+  "channel": "https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "six",
+    "vc >=14,<15.0a0"
+  ],
+  "extracted_package_dir": "D:\\MiniConda\\pkgs\\pyrsistent-0.15.6-py37hfa6e2cd_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/_pyrsistent_version.cpython-37.pyc",
+    "Lib/site-packages/_pyrsistent_version.py",
+    "Lib/site-packages/pvectorc.cp37-win_amd64.pyd",
+    "Lib/site-packages/pyrsistent-0.15.6.dist-info/INSTALLER",
+    "Lib/site-packages/pyrsistent-0.15.6.dist-info/LICENCE.mit",
+    "Lib/site-packages/pyrsistent-0.15.6.dist-info/METADATA",
+    "Lib/site-packages/pyrsistent-0.15.6.dist-info/RECORD",
+    "Lib/site-packages/pyrsistent-0.15.6.dist-info/WHEEL",
+    "Lib/site-packages/pyrsistent-0.15.6.dist-info/top_level.txt",
+    "Lib/site-packages/pyrsistent/__init__.py",
+    "Lib/site-packages/pyrsistent/__init__.pyi",
+    "Lib/site-packages/pyrsistent/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_checked_types.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_compat.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_field_common.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_helpers.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_immutable.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_pbag.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_pclass.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_pdeque.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_plist.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_pmap.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_precord.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_pset.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_pvector.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_toolz.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/_transformations.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/__pycache__/typing.cpython-37.pyc",
+    "Lib/site-packages/pyrsistent/_checked_types.py",
+    "Lib/site-packages/pyrsistent/_compat.py",
+    "Lib/site-packages/pyrsistent/_field_common.py",
+    "Lib/site-packages/pyrsistent/_helpers.py",
+    "Lib/site-packages/pyrsistent/_immutable.py",
+    "Lib/site-packages/pyrsistent/_pbag.py",
+    "Lib/site-packages/pyrsistent/_pclass.py",
+    "Lib/site-packages/pyrsistent/_pdeque.py",
+    "Lib/site-packages/pyrsistent/_plist.py",
+    "Lib/site-packages/pyrsistent/_pmap.py",
+    "Lib/site-packages/pyrsistent/_precord.py",
+    "Lib/site-packages/pyrsistent/_pset.py",
+    "Lib/site-packages/pyrsistent/_pvector.py",
+    "Lib/site-packages/pyrsistent/_toolz.py",
+    "Lib/site-packages/pyrsistent/_transformations.py",
+    "Lib/site-packages/pyrsistent/py.typed",
+    "Lib/site-packages/pyrsistent/typing.py",
+    "Lib/site-packages/pyrsistent/typing.pyi",
+    ".nonadmin"
+  ],
+  "fn": "pyrsistent-0.15.6-py37hfa6e2cd_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "D:\\MiniConda\\pkgs\\pyrsistent-0.15.6-py37hfa6e2cd_0",
+    "type": 1
+  },
+  "md5": "0b4ac03c5c48079993308ba769b450f9",
+  "name": "pyrsistent",
+  "package_tarball_full_path": "D:\\MiniConda\\pkgs\\pyrsistent-0.15.6-py37hfa6e2cd_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/_pyrsistent_version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ccbf980ffc0142fc2b1657e53bf3dc81ae2b6d3a5857bbe8b816b9278de085f",
+        "sha256_in_prefix": "2ccbf980ffc0142fc2b1657e53bf3dc81ae2b6d3a5857bbe8b816b9278de085f",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "Lib/site-packages/_pyrsistent_version.py",
+        "path_type": "hardlink",
+        "sha256": "0321e0af9e352d7a9d74487f0ac5b937112f481ac0e1db89062d2c761706144c",
+        "sha256_in_prefix": "0321e0af9e352d7a9d74487f0ac5b937112f481ac0e1db89062d2c761706144c",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "Lib/site-packages/pvectorc.cp37-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "6c25ff0139d241455814f1e55958c3019520d96931d05cbf8ab180d851443302",
+        "sha256_in_prefix": "6c25ff0139d241455814f1e55958c3019520d96931d05cbf8ab180d851443302",
+        "size_in_bytes": 32256
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent-0.15.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent-0.15.6.dist-info/LICENCE.mit",
+        "path_type": "hardlink",
+        "sha256": "a0f5f8872166edb0e23047f4957f9a3a7d3a08889844ae1f7b63d825b28cd4d3",
+        "sha256_in_prefix": "a0f5f8872166edb0e23047f4957f9a3a7d3a08889844ae1f7b63d825b28cd4d3",
+        "size_in_bytes": 1060
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent-0.15.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e06f98bf18dff6a879999b103f93056ebaf57db85df0146dcee1982343731805",
+        "sha256_in_prefix": "e06f98bf18dff6a879999b103f93056ebaf57db85df0146dcee1982343731805",
+        "size_in_bytes": 26482
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent-0.15.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7a73cf464c0f5de08ab289e2b2c21ec04eee8d7cd0316d69a9539ab940758c91",
+        "sha256_in_prefix": "7a73cf464c0f5de08ab289e2b2c21ec04eee8d7cd0316d69a9539ab940758c91",
+        "size_in_bytes": 3178
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent-0.15.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b9a65effd815fb84ff77802c92e21090281c63cc0c734517b151677f4fe6046b",
+        "sha256_in_prefix": "b9a65effd815fb84ff77802c92e21090281c63cc0c734517b151677f4fe6046b",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent-0.15.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e11818eb42b0a743c92ba24bb74e28df7e95e126572b940b0657d7d23653365c",
+        "sha256_in_prefix": "e11818eb42b0a743c92ba24bb74e28df7e95e126572b940b0657d7d23653365c",
+        "size_in_bytes": 40
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d5c38d2c20f36f20e867f75e7a4f048bf8aa38b238a0db1e44f2c5df3be61280",
+        "sha256_in_prefix": "d5c38d2c20f36f20e867f75e7a4f048bf8aa38b238a0db1e44f2c5df3be61280",
+        "size_in_bytes": 1479
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "c570f330a81d311195fe956ea5ed69df4568766ad54672bb18abf4952b4e5538",
+        "sha256_in_prefix": "c570f330a81d311195fe956ea5ed69df4568766ad54672bb18abf4952b4e5538",
+        "size_in_bytes": 7253
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "059ef089f249a63c242559b5de1482cda8b08ca6032b3b03b974ab86f8b801f7",
+        "sha256_in_prefix": "059ef089f249a63c242559b5de1482cda8b08ca6032b3b03b974ab86f8b801f7",
+        "size_in_bytes": 1592
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_checked_types.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4195ade53c74ff38950a605c926a9652cf90acf8b15a736d915c0fa081ce0d72",
+        "sha256_in_prefix": "4195ade53c74ff38950a605c926a9652cf90acf8b15a736d915c0fa081ce0d72",
+        "size_in_bytes": 21603
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f745495a6ef00c217766a4eda3918310e7e0b5421cc4826aafd0abce79f6505",
+        "sha256_in_prefix": "5f745495a6ef00c217766a4eda3918310e7e0b5421cc4826aafd0abce79f6505",
+        "size_in_bytes": 620
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_field_common.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ea463b24a107b8af31be81d50cab0b6ddef5d7e148c6748d594ad1e8f782b83",
+        "sha256_in_prefix": "7ea463b24a107b8af31be81d50cab0b6ddef5d7e148c6748d594ad1e8f782b83",
+        "size_in_bytes": 11088
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_helpers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f96786a175127a99e4a338df37b84f668bd1b2028842fcea65d56299688bd69c",
+        "sha256_in_prefix": "f96786a175127a99e4a338df37b84f668bd1b2028842fcea65d56299688bd69c",
+        "size_in_bytes": 3321
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_immutable.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "252dca8e867826a40be5c4fe4c0a5a1c19766ad6f7df15710061ffb7e7f2c4f5",
+        "sha256_in_prefix": "252dca8e867826a40be5c4fe4c0a5a1c19766ad6f7df15710061ffb7e7f2c4f5",
+        "size_in_bytes": 3797
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_pbag.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd210870d09b44a61b7ed00668953a585c226dfe1e489ef7643b1b2655b4a2fd",
+        "sha256_in_prefix": "fd210870d09b44a61b7ed00668953a585c226dfe1e489ef7643b1b2655b4a2fd",
+        "size_in_bytes": 7092
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_pclass.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2069af71afc0fa3e4b3bb7b8cbdb7452ad103c93146f3446a8d54cd11e7ffa38",
+        "sha256_in_prefix": "2069af71afc0fa3e4b3bb7b8cbdb7452ad103c93146f3446a8d54cd11e7ffa38",
+        "size_in_bytes": 9848
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_pdeque.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "606148649214676f84f4747d9fe6b5cb4d0c71b0ffa54d612c436fab4e86b7fd",
+        "sha256_in_prefix": "606148649214676f84f4747d9fe6b5cb4d0c71b0ffa54d612c436fab4e86b7fd",
+        "size_in_bytes": 10944
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_plist.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c27111cd58b6abf7403cc27474f9b6a1edce71349ed601c6c1791387d8f7e66e",
+        "sha256_in_prefix": "c27111cd58b6abf7403cc27474f9b6a1edce71349ed601c6c1791387d8f7e66e",
+        "size_in_bytes": 9217
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_pmap.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e0daafb42eb441cff5637473f424fb710c9d70a208c6facbc779519fb28934bb",
+        "sha256_in_prefix": "e0daafb42eb441cff5637473f424fb710c9d70a208c6facbc779519fb28934bb",
+        "size_in_bytes": 15307
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_precord.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "87cb32d582e50243de2967fba12859749680b0bd7d6b5968772e80961dac7d29",
+        "sha256_in_prefix": "87cb32d582e50243de2967fba12859749680b0bd7d6b5968772e80961dac7d29",
+        "size_in_bytes": 6976
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_pset.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "72bc6f74c32fc18c84073c1bd82e3006d23c84e93f6ac1a6681304586e163598",
+        "sha256_in_prefix": "72bc6f74c32fc18c84073c1bd82e3006d23c84e93f6ac1a6681304586e163598",
+        "size_in_bytes": 6885
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_pvector.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ef6d7c1e2459737f00cb043fc46bab036466ca151ca719353bbc49c6864437b",
+        "sha256_in_prefix": "6ef6d7c1e2459737f00cb043fc46bab036466ca151ca719353bbc49c6864437b",
+        "size_in_bytes": 22755
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_toolz.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3db9e35bdcdb79e36b6613978406c84dfb913cc9691c035f313e22222c4d63b6",
+        "sha256_in_prefix": "3db9e35bdcdb79e36b6613978406c84dfb913cc9691c035f313e22222c4d63b6",
+        "size_in_bytes": 3587
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/_transformations.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "99aa3fecfaa98aab932407a5a5a9425eafc872e2ad72302697cd985805b8740c",
+        "sha256_in_prefix": "99aa3fecfaa98aab932407a5a5a9425eafc872e2ad72302697cd985805b8740c",
+        "size_in_bytes": 3956
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/__pycache__/typing.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e9e66dafcebb9d21032e90d5487d224573e4e7c445025363148ba6fcaca0b86",
+        "sha256_in_prefix": "0e9e66dafcebb9d21032e90d5487d224573e4e7c445025363148ba6fcaca0b86",
+        "size_in_bytes": 2566
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_checked_types.py",
+        "path_type": "hardlink",
+        "sha256": "f8868de120e3b7a76982295cea94221e58051bff25e76d715338810b164d95e8",
+        "sha256_in_prefix": "f8868de120e3b7a76982295cea94221e58051bff25e76d715338810b164d95e8",
+        "size_in_bytes": 18358
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "01caa98434f4d851c5a1e228ec99b3ce51a4af099ab8f240bce62c4c4ac339bb",
+        "sha256_in_prefix": "01caa98434f4d851c5a1e228ec99b3ce51a4af099ab8f240bce62c4c4ac339bb",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_field_common.py",
+        "path_type": "hardlink",
+        "sha256": "6af0a8179a47614f94bd4a716b8e2dedf087c65006d0dd03e96a18e4c4a54f3b",
+        "sha256_in_prefix": "6af0a8179a47614f94bd4a716b8e2dedf087c65006d0dd03e96a18e4c4a54f3b",
+        "size_in_bytes": 11452
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "0f0c557785c8900efeba669a344aa358264147b3063777eabd3db6f4bf72e533",
+        "sha256_in_prefix": "0f0c557785c8900efeba669a344aa358264147b3063777eabd3db6f4bf72e533",
+        "size_in_bytes": 2475
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_immutable.py",
+        "path_type": "hardlink",
+        "sha256": "2f4d8e88d659edb4d6245479b55f5e15c5d8dc3a4ff38d01cf8238dd99f81778",
+        "sha256_in_prefix": "2f4d8e88d659edb4d6245479b55f5e15c5d8dc3a4ff38d01cf8238dd99f81778",
+        "size_in_bytes": 3559
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_pbag.py",
+        "path_type": "hardlink",
+        "sha256": "2ca83625229694fdb2d1202b05d10dd4e9b3ea0f63e865e3f63231b2a3321bd0",
+        "sha256_in_prefix": "2ca83625229694fdb2d1202b05d10dd4e9b3ea0f63e865e3f63231b2a3321bd0",
+        "size_in_bytes": 6754
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_pclass.py",
+        "path_type": "hardlink",
+        "sha256": "dbbb0264c2b3cc10729bfd469c2a8e60ce2dc4babb03804762af0090941c3750",
+        "sha256_in_prefix": "dbbb0264c2b3cc10729bfd469c2a8e60ce2dc4babb03804762af0090941c3750",
+        "size_in_bytes": 9722
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_pdeque.py",
+        "path_type": "hardlink",
+        "sha256": "aa1af1a44fc81fba5b44acc0e257a3472d59d2130160694e4d5ae2a1066f3aca",
+        "sha256_in_prefix": "aa1af1a44fc81fba5b44acc0e257a3472d59d2130160694e4d5ae2a1066f3aca",
+        "size_in_bytes": 12184
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_plist.py",
+        "path_type": "hardlink",
+        "sha256": "e40f2477c35352c94e1088b3ff0625d1191044ccaff2073e20a0f9890a3b5a52",
+        "sha256_in_prefix": "e40f2477c35352c94e1088b3ff0625d1191044ccaff2073e20a0f9890a3b5a52",
+        "size_in_bytes": 8282
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_pmap.py",
+        "path_type": "hardlink",
+        "sha256": "51a52e495d8cc4259f7c046b0a4058d6517199a947c3c381825ddf2d71d3b35b",
+        "sha256_in_prefix": "51a52e495d8cc4259f7c046b0a4058d6517199a947c3c381825ddf2d71d3b35b",
+        "size_in_bytes": 14643
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_precord.py",
+        "path_type": "hardlink",
+        "sha256": "0329a3b7ab713499eececba0db322dc3d4dfac11786cba6265e6c77737b31856",
+        "sha256_in_prefix": "0329a3b7ab713499eececba0db322dc3d4dfac11786cba6265e6c77737b31856",
+        "size_in_bytes": 7019
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_pset.py",
+        "path_type": "hardlink",
+        "sha256": "fb5dfee50aaa3dca2a3e9fdb940b7c5bf2d46338fe70455e425970371ff3ba6b",
+        "sha256_in_prefix": "fb5dfee50aaa3dca2a3e9fdb940b7c5bf2d46338fe70455e425970371ff3ba6b",
+        "size_in_bytes": 5718
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_pvector.py",
+        "path_type": "hardlink",
+        "sha256": "356d6923d40adfa0cedbf683ad51ca20627e7c815878f5d8550ee15bb42ca762",
+        "sha256_in_prefix": "356d6923d40adfa0cedbf683ad51ca20627e7c815878f5d8550ee15bb42ca762",
+        "size_in_bytes": 22715
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_toolz.py",
+        "path_type": "hardlink",
+        "sha256": "5216c4d984a7f5ee7841dcaa45032cea3457f3ebed5613c7fd589836e8ea06a4",
+        "sha256_in_prefix": "5216c4d984a7f5ee7841dcaa45032cea3457f3ebed5613c7fd589836e8ea06a4",
+        "size_in_bytes": 3427
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/_transformations.py",
+        "path_type": "hardlink",
+        "sha256": "7d677802d1e1379d131669c416d55a14e1658e6be051eac5434825ccf2c4e665",
+        "sha256_in_prefix": "7d677802d1e1379d131669c416d55a14e1658e6be051eac5434825ccf2c4e665",
+        "size_in_bytes": 3910
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/typing.py",
+        "path_type": "hardlink",
+        "sha256": "2f29ef968da50c0e48007dc383d2c8d4c8dec1b17d98ed86ccbe0138d89d4a8e",
+        "sha256_in_prefix": "2f29ef968da50c0e48007dc383d2c8d4c8dec1b17d98ed86ccbe0138d89d4a8e",
+        "size_in_bytes": 1728
+      },
+      {
+        "_path": "Lib/site-packages/pyrsistent/typing.pyi",
+        "path_type": "hardlink",
+        "sha256": "07942b355ebe24ca12039237189b0aeaf75abd606e57d87b6be359acb031d357",
+        "sha256_in_prefix": "07942b355ebe24ca12039237189b0aeaf75abd606e57d87b6be359acb031d357",
+        "size_in_bytes": 10385
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "98066dae88241e352accbce7d5fbdbbf2e8f548f5d5e558efc7a842708e9f2e4",
+  "size": 92802,
+  "subdir": "win-64",
+  "timestamp": 1574551664765,
+  "track_features": "",
+  "url": "https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/win-64/pyrsistent-0.15.6-py37hfa6e2cd_0.tar.bz2",
+  "version": "0.15.6"
+}
